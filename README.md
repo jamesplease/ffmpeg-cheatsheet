@@ -45,7 +45,7 @@ ffmpeg -i in.mp4 -filter:v "setpts=4.0*PTS" out.mp4
 
 ### Scale to a Specific Width
 
-Given a width, like, 538px, you can resize a video while retaining the aspect ratio
+Given a desired video width, like, 538px, you can resize a video to that width while retaining the aspect ratio
 using:
 
 ```
