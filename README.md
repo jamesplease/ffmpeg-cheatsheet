@@ -1,4 +1,4 @@
-# ffmpeg Cheatsheet
+# ffmpeg cheatsheet
 
 A cheatsheet for ffmpeg.
 
