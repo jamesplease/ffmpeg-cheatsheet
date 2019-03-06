@@ -1,6 +1,19 @@
 # ffmpeg cheatsheet
 
-A cheatsheet for ffmpeg.
+A cheatsheet for [ffmpeg](https://ffmpeg.org/).
+
+## Installing ffmpeg
+
+The simplest way to install ffmpeg on macOS is by using
+[brew](https://brew.sh/).
+
+```
+brew install ffmpeg
+```
+
+## Cheatsheet
+
+The following are the most common commands that I use.
 
 ### Change File Type
 
