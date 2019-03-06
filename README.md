@@ -46,3 +46,17 @@ Crop a 80x60 square at position (200, 100).
 ```
 ffmpeg -i in.mp4 -filter:v "crop=80:60:200:100" -c:a copy out.mp4
 ```
+
+### Generating a Poster Image
+
+A poster image is an image that displays while a video is loading in the browser. It is particularly
+valuable for mobile devices.
+
+To generate a representative image from the 7th second of a video, you can run this command:
+
+```
+ffmpeg -i in.mp4 -ss 00:00:07.000 -vframes 1 out.jpg
+```
+
+For more common frame extraction commands, see
+[this post](https://www.bugcodemaster.com/article/extract-images-frame-frame-video-file-using-ffmpeg).
